@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Project Delper: Strategic Framework</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F5F7F8;--surface:#FFFFFF;--ink:#10202E;--mute:#52606D;--line:#D3DAE0;--a:#0E7C86;--b:#2F4B7C;--c:#C98A1B;--d:#8A97A3;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D1822;--surface:#14232F;--ink:#E8EEF2;--mute:#9AA8B4;--line:#27394773;--a:#3FB5BF;--b:#7F9CD6;--c:#E3AE4A;--d:#6B7A87}}
+:root[data-theme="dark"]{--bg:#0D1822;--surface:#14232F;--ink:#E8EEF2;--mute:#9AA8B4;--line:#27394773;--a:#3FB5BF;--b:#7F9CD6;--c:#E3AE4A;--d:#6B7A87}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 Manrope,system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:32px 20px 64px}
+h1,h2{font-family:Fraunces,Georgia,serif;line-height:1.15;margin:0}
+h1{font-size:clamp(2rem,6vw,3rem);font-weight:700}
+h2{font-size:1.6rem;margin:56px 0 12px}
+h3{font-size:1rem;margin:20px 0 4px}
+p{margin:0 0 12px;max-width:68ch}
+.lede{font-size:1.1rem;color:var(--mute);margin-top:12px}
+.note{border-left:3px solid var(--c);padding:8px 14px;background:var(--surface);color:var(--mute);font-size:.92rem;margin:16px 0}
+.bar{display:flex;height:64px;border-radius:6px;overflow:hidden;margin:20px 0 10px}
+.bar div{display:flex;align-items:flex-end;padding:8px 10px;color:#fff;font-weight:700;font-size:.95rem}
+.k{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:18px 24px;margin-top:14px}
+.k b{display:block;font-size:1.3rem;font-family:Fraunces,Georgia,serif}
+.k span{color:var(--mute);font-size:.88rem}
+.k i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px}
+.scroll{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:.92rem}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:700;color:var(--mute);font-size:.85rem}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.t td{font-weight:700;border-bottom:0}
+.s{display:block;height:5px;border-radius:3px;background:var(--a);margin-top:5px}
+ul{padding-left:20px;margin:0 0 12px;max-width:68ch}
+li{margin-bottom:6px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:640px){.two{grid-template-columns:1fr}}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px}
+.box h3{margin-top:0}
+footer{margin-top:56px;color:var(--mute);font-size:.85rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Project Delper</h1>
+<p class="lede">A no-cash rewards platform: users onboard with KYC and OTP, redeem closed-loop store credits, and buy from top-rated vendors at doorstep prices. No biometric tracking.</p>
+<div class="box" style="margin:20px 0"><h3 style="margin-bottom:2px">Initial investment</h3><p style="margin:0"><b style="font:700 1.6rem Fraunces,Georgia,serif">USD 300 million</b> from a Single Family Office (SFO), as non-leveraged growth equity.</p></div>
+<p class="note">Status: draft for validation. Revenue figures are management targets in USD and have not been independently verified.</p>
+
+<h2>Where each dollar goes</h2>
+<p>Annual revenue of $601.362 billion is split four ways by a fixed policy. HoldCo finance calculates the split and external auditors verify it.</p>
+<div class="bar" role="img" aria-label="Revenue split: 30% user loyalty, 30% platform operations, 30% Delper share, 10% contingency">
+<div style="width:30%;background:var(--a)">30%</div><div style="width:30%;background:var(--b)">30%</div><div style="width:30%;background:var(--c);color:#10202E">30%</div><div style="width:10%;background:var(--d)">10%</div>
+</div>
+<div class="k">
+<div><b>$180.41B</b><span><i style="background:var(--a)"></i>User loyalty: store credits, held as a liability until redeemed</span></div>
+<div><b>$180.41B</b><span><i style="background:var(--b)"></i>Platform operations: data, infrastructure, security</span></div>
+<div><b>$180.41B</b><span><i style="background:var(--c)"></i>Delper share: pre-tax profit, paid to the SFO after tax</span></div>
+<div><b>$60.14B</b><span><i style="background:var(--d)"></i>Contingency: liquid reserve</span></div>
+</div>
+<p style="margin-top:16px">After the loyalty and operations allocations, about 40% of revenue remains before tax and contingency. All net earnings go to the SFO as sole shareholder, paid as dividends from post-tax distributable reserves. Any contingency balance released later is also paid to the SFO.</p>
+
+<h2>Corporate structure</h2>
+<div class="two">
+<div class="box"><h3>HoldCo (Singapore)</h3><p>The operating company. It runs software, the ad platform and data clearing, books revenue, pays host-country and Singapore taxes, and funds credits and operations.</p></div>
+<div class="box"><h3>VCC (Singapore)</h3><p>A passive investment vehicle for fixed-income and real-estate assets, run by a licensed fund manager under MAS and ACRA rules.</p></div>
+</div>
+<p style="margin-top:16px">The SFO's initial investment of USD 300 million is the only external capital; the group carries no debt. The group is privately held and keeps all statutory filing, tax and AML duties.</p>
+
+<h2>Nineteen revenue streams</h2>
+<p>Annual targets in USD millions, totaling $601,362M. Matching lines are to be reported net of supplier or media cost where Delper acts as principal.</p>
+<div class="scroll"><table>
+<thead><tr><th>Stream</th><th>Line</th><th class="n">USD M</th></tr></thead>
+<tbody>
+<tr><td>Fixed B2B Predictive Subscriptions<span class="s" style="width:100%"></span></td><td>SaaS and AdTech</td><td class="n">159,840</td></tr>
+<tr><td>Holiday B2B Food Commodity Matching<span class="s" style="width:45%"></span></td><td>Clearing</td><td class="n">72,000</td></tr>
+<tr><td>Predictive Real-Time Bidding Spreads<span class="s" style="width:42%"></span></td><td>Clearing</td><td class="n">67,200</td></tr>
+<tr><td>O2O Postal Media Product Indexing<span class="s" style="width:33%"></span></td><td>SaaS and AdTech</td><td class="n">51,960</td></tr>
+<tr><td>Weekly Wellness Product Matching<span class="s" style="width:33%"></span></td><td>Clearing</td><td class="n">51,960</td></tr>
+<tr><td>Live Broadcast Video Commerce Fees<span class="s" style="width:31%"></span></td><td>Clearing</td><td class="n">49,200</td></tr>
+<tr><td>Weekly Apparel and T-Shirt Matching<span class="s" style="width:16%"></span></td><td>Clearing</td><td class="n">25,980</td></tr>
+<tr><td>Home Screen Quad-Banner Placements<span class="s" style="width:15%"></span></td><td>SaaS and AdTech</td><td class="n">23,760</td></tr>
+<tr><td>B2G Public Sector Governance Portal Fees<span class="s" style="width:14%"></span></td><td>SaaS and AdTech</td><td class="n">21,600</td></tr>
+<tr><td>Optional Cost-Per-View Movie Ads<span class="s" style="width:11%"></span></td><td>SaaS and AdTech</td><td class="n">18,000</td></tr>
+<tr><td>Monthly Employment Classifieds Network<span class="s" style="width:7.5%"></span></td><td>SaaS and AdTech</td><td class="n">12,000</td></tr>
+<tr><td>Capital Markets Retail Allocation Cuts (target 18%)<span class="s" style="width:6.8%"></span></td><td>Clearing</td><td class="n">10,800</td></tr>
+<tr><td>Credit Markets Matching Network Fees (target 18%)<span class="s" style="width:6.8%"></span></td><td>Clearing</td><td class="n">10,800</td></tr>
+<tr><td>Matrimony AdTech Target Layers<span class="s" style="width:3.8%"></span></td><td>SaaS and AdTech</td><td class="n">6,000</td></tr>
+<tr><td>Monthly Local Travel Placements<span class="s" style="width:3.8%"></span></td><td>SaaS and AdTech</td><td class="n">6,000</td></tr>
+<tr><td>Monthly Culinary Kit Smart Contracts<span class="s" style="width:3.8%"></span></td><td>Clearing</td><td class="n">6,000</td></tr>
+<tr><td>InsureShield Retail Broker Cuts (target 18%)<span class="s" style="width:3.4%"></span></td><td>Clearing</td><td class="n">5,400</td></tr>
+<tr><td>Wrapper Branding Packaging Partnerships (CPM)<span class="s" style="width:1%"></span></td><td>SaaS and AdTech</td><td class="n">1,662</td></tr>
+<tr><td>Bi-Weekly Local Hero Media Slots<span class="s" style="width:.8%"></span></td><td>SaaS and AdTech</td><td class="n">1,200</td></tr>
+<tr class="t"><td>Total</td><td></td><td class="n">601,362</td></tr>
+</tbody></table></div>
+<p>The 18% rates are targets and may be capped by securities, lending and insurance regulators. Subscription fees are recognized over the service period.</p>
+
+<h2>Onboarding and verification</h2>
+<ul>
+<li><b>Identity:</b> digital KYC against local registries, with network-delivered OTP for every sign-in and redemption. Where camera checks are restricted, users get a non-biometric alternative.</li>
+<li><b>Privacy:</b> no biometric data is collected, which addresses Illinois BIPA. KYC records, telemetry and bidding data are still personal data, so GDPR-style controls apply: lawful basis, consent, impact assessments, transfer safeguards and retention limits.</li>
+<li><b>Store credits:</b> each market needs a stored-value licence or exemption (for example MAS, India PPI rules, China prepaid rules). Unredeemed credits sit on the balance sheet as liabilities.</li>
+<li><b>Regional targets:</b> India BBPS and NPCI; China WeChat Mini-Programs; Indonesia GrabMart and GoMart; Africa MTN, Airtel and Safaricom M-Pesa; Mexico building administrations; Brazil Pix business codes; United States apartment portals. Each depends on partner agreements and local approvals.</li>
+</ul>
+
+<h2>Treasury and reinvestment</h2>
+<p>Because all net earnings belong to the SFO, the VCC is funded by the SFO itself, which reinvests an agreed share of its dividends into the VCC each year. That rate is a policy setting; at 100% the SFO takes no cash out.</p>
+<div class="two">
+<div class="box"><h3>Years 1 to 20: accumulate</h3><p>The VCC buys 20-year sovereign or sovereign-guaranteed infrastructure bonds each year. Projects are built by issuers and third-party contractors under BOOT terms.</p></div>
+<div class="box"><h3>Year 21 onward: roll over</h3><p>The Year 1 tranche matures and its principal is reinvested. From then on, maturities and new purchases overlap. Finished assets pass to host nations, so no maintenance or depreciation sits with Delper.</p></div>
+</div>
+<ul style="margin-top:16px">
+<li>At $180 billion a year, purchases would reach about $3.6 trillion over 20 years. A market-capacity study will set realistic limits.</li>
+<li>Modeling still to complete: coupon income, currency, sovereign default, liquidity and concentration limits.</li>
+<li>Infrastructure spending may lift output, but the size depends on project quality and local absorption.</li>
+<li>Scale: $180 billion a year is roughly 0.15% to 0.2% of world GDP. The effect is largest in emerging markets short of infrastructure.</li>
+<li>Additionality: the gain is greatest where Delper's money funds projects that would not otherwise be financed, not where it replaces other lenders.</li>
+</ul>
+
+<h2>From onboarding to smart cities</h2>
+<p>One loop connects user activity to public infrastructure.</p>
+<style>.flow{list-style:none;padding:0;margin:16px 0;counter-reset:s;max-width:none}.flow li{counter-increment:s;position:relative;margin:0;padding:0 0 18px 48px;border-left:2px solid var(--line);margin-left:15px}.flow li:last-child{border-left-color:transparent;padding-bottom:0}.flow li:before{content:counter(s);position:absolute;left:-16px;top:0;width:30px;height:30px;border-radius:50%;background:var(--a);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:.9rem}.flow b{display:block}.flow span{color:var(--mute);font-size:.94rem}</style>
+<ol class="flow">
+<li><b>Onboard</b><span>Users sign up through local rails, pass KYC and confirm with OTP.</span></li>
+<li><b>Redeem and buy</b><span>Users spend store credits with rated vendors, who pay for predictive demand data.</span></li>
+<li><b>Earn</b><span>The 19 streams flow into HoldCo as revenue.</span></li>
+<li><b>Split</b><span>30% user credits, 30% operations, 30% SFO, 10% contingency.</span></li>
+<li><b>Pay the SFO</b><span>After tax, all net earnings go to the SFO.</span></li>
+<li><b>Reinvest</b><span>The SFO puts an agreed share of dividends into the VCC, which buys 20-year infrastructure bonds each year.</span></li>
+<li><b>Build</b><span>Governments and project issuers fund transit, utilities and logistics corridors. Third-party contractors build under BOOT terms.</span></li>
+<li><b>Mature</b><span>From Year 21, bonds repay and principal is reinvested. Finished assets pass to host nations.</span></li>
+</ol>
+<div class="box"><h3>Smart cities and eco-friendly industrial clusters</h3><p>These sit at the Build step. Delper lends to bond issuers and does not build the projects. Its merchant demand and logistics data can help choose sites and size projects. To guarantee that funds reach smart-city or low-carbon cluster projects, the VCC would buy green or sustainability-linked bonds that ring-fence proceeds and require impact reporting.</p></div>
+
+<h2>Risk and governance</h2>
+<ul>
+<li><b>Credit:</b> partner banks hold lending exposure. Delper keeps contractual, reputational and regulatory risk.</li>
+<li><b>AI:</b> tools handle data under human oversight and approval, with testing, logging and drift monitoring.</li>
+<li><b>Operations:</b> partner concentration, outages, fraud, merchant disputes and credit run-off.</li>
+</ul>
+
+<h2>Financial outlook</h2>
+<ul>
+<li><b>Ramp-up:</b> a user, merchant and cash-conversion model will show the cumulative cash trough against the $300M seed.</li>
+<li><b>Debt coverage:</b> not applicable, because the structure carries no debt.</li>
+<li><b>Moat:</b> credits tie users and merchants together. Strength depends on merchant adoption and on compliant data-sharing contracts.</li>
+</ul>
+
+<h2>Tax framework</h2>
+<ul>
+<li><b>Host countries:</b> corporate income tax, VAT or GST, withholding, permanent establishment and transfer pricing rules apply locally.</li>
+<li><b>HoldCo:</b> Singapore corporate rate (17% headline). Under the single-tier system, dividends are not taxed again for shareholders.</li>
+<li><b>Pillar Two:</b> groups above EUR 750 million revenue face a 15% minimum tax, so Delper would be in scope.</li>
+<li><b>VCC:</b> Section 13U can exempt specified fund income, such as qualifying bond interest, if size, staffing and spending conditions are met. It does not cover HoldCo income or foreign withholding. Treaty relief varies by country, and the SFO should also review Section 13O.</li>
+</ul>
+
+<h2>Verdict</h2>
+<div class="box"><h3>Sound structure, conditional on validation</h3>
+<p>The design is coherent: operations and treasury are separated, there is no debt, the SFO is the sole owner of all net earnings, and the closed-loop credit model gives users and merchants a reason to stay.</p>
+<p><b>Strengths:</b> clear entity split, a simple allocation rule, and a long-term path from consumer spending to public infrastructure.</p>
+<p><b>Conditions to meet:</b> the $601 billion revenue target must be proven from the bottom up and reported net; stored-value, data and financial licences must be secured market by market; tax treatment needs a formal opinion; and the bond program must be sized to what emerging-market issuers can absorb.</p>
+<p style="margin:0"><b>Rating:</b> ready for the validation stage, not yet for full execution. Proceed once the five items under "Before launch" are done.</p></div>
+
+<h2>Before launch</h2>
+<ul>
+<li>A bottom-up, net-revenue financial model.</li>
+<li>Legal opinions on stored value, securities, lending, insurance and data protection in each market.</li>
+<li>A tax structuring opinion and a bond-market capacity study.</li>
+<li>Independent review of the full framework.</li>
+</ul>
+<footer>Delper Global. KYC and OTP authorization mandatory. No biometric tracking.</footer>
+</main>
+</body>
+</html>
